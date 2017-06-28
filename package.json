@@ -1,0 +1,27 @@
+{
+  "name": "node-steam-proxy-checker",
+  "version": "1.0.0",
+  "description": "Check Proxies Against Steam",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoSeverino/node-proxy-checker.git"
+  },
+  "keywords": [
+    "node",
+    "steam",
+    "proxy"
+  ],
+  "author": "Tiago Severino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TiagoSeverino/node-steam-proxy-checker/issues"
+  },
+  "homepage": "https://github.com/TiagoSeverino/node-steam-proxy-checker#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
