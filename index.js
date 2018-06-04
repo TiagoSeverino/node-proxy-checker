@@ -5,11 +5,11 @@ const Settings = require('./config.json');
 var proxies = fs.readFileSync('proxy.txt').toString().split("\n");
 var data = fs.readFileSync('filtered_proxy.txt').toString();
 
-for (var i = 0, len = proxies.length - 1; i < len; i++) {
-	CheckProxy(proxies[i]);
-}
+proxies.forEach(function(proxy){
+	checkProxy(proxy);
+});
 
-function CheckProxy(proxy)
+function checkProxy(proxy)
 {
 	var reqOpts = {
 		url: Settings.URL,
